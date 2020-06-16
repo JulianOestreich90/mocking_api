@@ -1,0 +1,30 @@
+.card-header {
+  font-family: Lato,Helvetica Neue,Arial,Helvetica,sans-serif;
+  font-weight: 700;
+}
+
+.Url-title {
+  margin-left: 1%;
+  color: rgba(0,0,0,0.3);
+}
+
+.Url-title:hover {
+  color: rgba(0,0,0,0.95);
+  cursor: pointer;
+}
+.btn-group {
+  width: 50%;
+  margin-left: 1%
+}
+.active-json {
+  margin-left: 1%;
+}
+
+.delete-url{
+  float:right;
+}
+
+.activate-json{
+  float:right;
+  margin-right: 1%;
+}
