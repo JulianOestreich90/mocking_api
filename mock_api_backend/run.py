@@ -1,7 +1,7 @@
 from flask import Flask, request
 from flask_cors import CORS
 
-from extensions import db, bcrypt, jwt, login_manager
+from extensions import db, bcrypt, login_manager
 from app import api_bp
 from config import *
 from models import User
@@ -15,7 +15,6 @@ def create_app(config_filename):
 
     bcrypt.init_app(app)
     db.init_app(app)
-    jwt.init_app(app)
 
     @login_manager.user_loader
     def load_user(user_id):
